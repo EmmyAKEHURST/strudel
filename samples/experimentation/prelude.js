@@ -5,14 +5,14 @@ const guitar = note("<[d3@4][f4] [d3@4][f4] [c3@4][fb4] [c3@4][fb4]>").sound("gm
     .room(1)
     .roomsize(3)
     .delay("0 0.5")
-    .delaytime(0.375)
+    .delaytime(0.4)
     .delayfeedback(0.75)
 
 const fret = note("<[-]!3 [f4]>").sound("gm_guitar_fret_noise")
     .room(1)
     .roomsize(3)
     .delay("0.2")
-    .delaytime(0.375)
+    .delaytime(0.4)
     .delayfeedback(0.75)
 
 const drums = sound("bd sd, hh*4")
@@ -30,4 +30,4 @@ const melody =note("<D5@2 D5 E5@2 D5 E5 F5> <D5@2 D5 E5@2 D5 E5 F5> <D5@2 D5 E5@
 
 //have fun with melody, guitar, fret and drums
 
-stack()
+stack(guitar, fret, drums, melody)
