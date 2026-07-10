@@ -17,7 +17,7 @@ $: note("[A4 B4] <C5 E5>")
   .roomsize(4)
   .delay(0.3)
   .delayfeedback(0.8)
-  .pan(sine.slow(8)) // effet orbitale, sine permet de faire monter la note ou la faire descendre
+  .pan(sine.slow(8)) // effet orbitale, sine permet de faire monter la note et la faire descendre
   .lpf(perlin.range(500, 2500))
   .gain(0.5)
   ._scope()
