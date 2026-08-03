@@ -8,7 +8,7 @@ Ce dépôt est un dépot personnel autour de [Strudel](https://strudel.cc), envi
 |---------|------|
 | [`docs/`](docs/) | Guides PDF, références et notes pour apprendre Strudel. Voir le [readme du dossier](docs/readme.md). |
 | [`samples/`](samples/) | Morceaux structurés |
-| [`experimentation/`(samples/experimentations) | livecoding pur et dur (pas structuré) |
+| [`experimentation/`](samples/experimentations) | livecoding pur et dur (pas structuré) |
 
 ## Strudel en bref
 
