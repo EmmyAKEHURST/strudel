@@ -1,6 +1,6 @@
 # Samples Strudel
 
-Ce dossier regroupe du **code Strudel** prêt à être copié dans [Strudel](https://strudel.cc) : expérimentation (du pur livecoding) dans le sous dossier [`experimentation/`](experimentation/) et morceaux structuré ici.
+Ce dossier regroupe pleins de fichiers prêt à être déployé sur **[Strudel](https://strudel.cc)** : expérimentation (du pur livecoding) dans le sous dossier [`experimentation/`](experimentation/) et morceaux structuré ici.
 
 ## Structure
 
