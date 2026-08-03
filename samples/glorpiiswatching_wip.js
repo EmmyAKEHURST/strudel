@@ -44,26 +44,28 @@ const back = note("<c2 g#1 f1 g#1>/2").sound("supersaw")
 const bipbip = stack(
   note("<c4!4 f3!2 g#3!2> -!7")
   .delay(.5)
-  .room(1),
+  .room(1)
+  .postgain(1),
   
   note("- - - c6, - - - c5").sound("wt_digital_basique")
   .room(1)
   .delay(.2)
-  .sometimes(ply("4"))
-  .postgain(.3)
+  .sometimes(ply("2"))
+  .postgain(.4)
 )
 
 // ça fait boom
-const boom = sound("bd!4").bank("rolandtr808")
-  .gain(3)
+const boom = sound("bd!4").bank("rolandtr909")
+  .gain(.7)
+  .room(.2)
   ._pianoroll()
 
 // hithat qui part quasi jamais en couille mais quand même
 const hithat = sound("compurhythm1000_hh!8")
   .decay(.8)
   .gain(.15)
+  .lpf(8000)
   .almostNever(ply("2 | 4"))
-  .lpf(2000)
   ._pianoroll()
 
 
@@ -74,7 +76,7 @@ const lesnotes = note("<c2 g#1 f1 g1>/4").sound("wt_digital_basique")
   .room(1)
   .sometimes(trans(12))
   .delay(.5)
-  .postgain(.65)
+  .postgain(.55)
   ._pianoroll()
 
 // -------------------- ASSEMBLAGE --------------------
