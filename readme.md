@@ -1,17 +1,18 @@
 # Strudel : Outil/Environnement de livecoding
 
-Ce dépôt est un dépot personnel autour de [Strudel](https://strudel.cc), environnement de **live coding** implémenté dans votre navigateur (héritier de l’écosystème TidalCycles) en javascript. Il contiendra de la documentation, des samples fait par mes soins et d'autres petites bidouilles.
+Ce dépôt est un dépot personnel autour de [Strudel](https://strudel.cc), environnement de **live coding** implémenté dans un navigateur  qui supporte le javascript. Il contiendra de la documentation, des expérimentations et morceaux fait par mes soins et d'autres petites bidouilles.
 
 ## Contenu du dépôt
 
 | Dossier | Rôle |
 |---------|------|
 | [`docs/`](docs/) | Guides PDF, références et notes pour apprendre Strudel. Voir le [readme du dossier](docs/readme.md). |
-| [`samples/`](samples/) | Bidouilles que j'ai pu réaliser [REPL](https://strudel.cc). |
+| [`samples/`](samples/) | Morceaux structurés |
+| [`experimentation/`(samples/experimentations) | livecoding pur et dur (pas structuré) |
 
 ## Strudel en bref
 
-Strudel permet d’écrire de la musique algorithmique en **JavaScript** ou en mini-notation inspirée de Tidal, de la jouer en direct dans le navigateur et de l’utiliser pour des performances en direct ou dans son coin. Le son suit le code grâce à un **REPL** (*Read–Eval–Print Loop*) : vous écrivez une expression, l’environnement l’évalue aussitôt et rejoue le résultat sans besoin de recompiler ni de relancer quoi que ce soit.
+Strudel permet de coder de la musique en **JavaScript** inspirée de TidalCycles, de la jouer en direct dans le navigateur et de l’utiliser pour faire des performances en direct (livecoding) ou dans son coin. Le son suit le code grâce à un **REPL** (*Read–Eval–Print Loop*) : en gros, tu écris du code, l’environnement l’évalue aussitôt et rejoue le résultat sans besoin de recompiler ni de relancer quoi que ce soit.
 
 Documentation officielle : [strudel.cc](https://strudel.cc/workshop/getting-started/) - manuel technique du REPL : [technical-manual/repl](https://strudel.cc/technical-manual/repl/)
 
@@ -19,31 +20,28 @@ Documentation officielle : [strudel.cc](https://strudel.cc/workshop/getting-star
 
 ## Conditions d’utilisation
 
-### Interdiction d’usage pour l’IA
+### Autorisation d’usage pour l’IA MAIS !
 
-**Je refuse explicitement** que le contenu de ce dépôt soit utilisé pour :
-
-- alimenter des **modèles d’IA**
-- produire des dérivés avec de l'IA.
-
-Bref, N'UTILISEZ PAS LE CONTENU DE CE DEPOT DANS DE L'IA sauf accord écrit de ma part
+**Je refuse explicitement** la création de dérivés avec de l'IA et proclamer l'oeuvre comme sienne.
+Néanmoins, libre à vous d'utiliser mes morceaux pour comprendre grâce à l'ia comment le tout fonctionne, même si strudel contient déjà un référentiel expliquant chaque fonctions.
+N'oubliez pas : Reddit & Discord existent ! (et contiennent des communautés autour de strudel)
 
 ### Samples : réutilisation humaine bienvenue
 
-En revanche, les fichiers dans [`samples/`](samples/) sont là pour être **repris à la main** :
+Les fichiers dans [`samples/`](samples/) sont là pour être **repris à la main** :
 
 - copier-coller dans Strudel
 - modifier, découper, combiner avec vos propres idées
 - apprendre en expérimentant vous-même.
 
-Vous êtes **libres** de vous en inspirer, tant que l’usage reste **manuel et créatif**.
+Vous êtes **libres** de vous en inspirer, tant que l’usage reste **manuel et créatif** et que, de préférence, vous me mentionnez dans votre morceau si vous réutilisez mon code :)
 
 ### Documentation tierce
 
-Les PDF et ressources dans `docs/` peuvent être soumis à leurs **propres licences** (auteurs originaux). Ce dépôt ne revendique pas leur paternité ; il les archive pour un usage personnel et pédagogique.
+Les PDF et ressources dans `docs/` peuvent être soumis à leurs **propres licences** (auteurs originaux). Ce dépôt ne revendique pas leur paternité, il les archive pour un usage pédagogique.
 
 ---
 
 ## Contribution
 
-Ce dépôt est avant tout un **espace personnel**. Pas d’ouverture générale aux PR pour l’instant ; en cas de question sur les conditions ci-dessus, ouvrez une issue ou contactez le mainteneur du dépôt.
+Ce dépôt est avant tout un **espace personnel**. Pas d’ouverture générale aux pull request pour l’instant, en cas de question sur les conditions ci-dessus, contactez moi :)
