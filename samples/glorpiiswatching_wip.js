@@ -24,8 +24,8 @@ setcpm(30)
 // ⠀⠀⡀⠔⠉⠀⠀⢽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣔⣻⢷⣯⡽⣚⣷⣻⡼⠀⠀
 // ⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡟⣽⣞⣷⣻⠀⠀
 // ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-// Glorpi is watching
-// TombeauLatenT
+// @title Glorpi is watching
+// @by TombeauLatenT
 
 // -------------------- LES CONSTANTES --------------------
 
