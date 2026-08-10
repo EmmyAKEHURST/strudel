@@ -1,6 +1,6 @@
 # Strudel : Outil/Environnement de livecoding
 
-Ce dépôt est un dépot personnel autour de [Strudel](https://strudel.cc), environnement de **live coding** implémenté dans un navigateur  qui supporte le javascript. Il contiendra de la documentation, des expérimentations et morceaux fait par mes soins et d'autres petites bidouilles.
+Ce dépôt est un dépot personnel autour de [Strudel](https://strudel.cc), environnement de **live coding** implémenté dans un navigateur en javascript. Il contiendra de la documentation, des expérimentations et morceaux fait par mes soins et d'autres petites bidouilles.
 
 ## Contenu du dépôt
 
